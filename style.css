@@ -1,4 +1,80 @@
-.imgs{
-  width: 1000px;
-  height: 600px;
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  background: rgb(0, 255, 184);
+  background: linear-gradient(90deg, rgba(0, 255, 184, 1) 0%, rgba(79, 255, 232, 1) 35%, rgba(255, 255, 255, 1) 100%);
+  font-family: 'Hind Siliguri', sans-serif;
+  overflow-x: hidden;
+}
+
+.miImagen {
+  width: 35%;
+  margin: 0 auto;
+  height: 450px;
+  margin-top: 1%;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.child {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: rgb(28, 228, 255);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  /* flex: 1 1 150px;  Stretching: */
+  flex: 0 1 90px;
+  /*  No stretching: */
+  margin: 5px;
+  user-select: none;
+  transition: 300ms;
+}
+
+.child:hover {
+  width: 105px;
+  height: 55px;
+  background-color: rgb(29, 206, 230);
+}
+
+.child:active {
+  background-color: white;
+}
+
+#titulo {
+  font-size: 3em;
+  text-align: center;
+}
+
+#tituloObra{
+  text-align: center;
+}
+
+#porcentajes{
+  text-align: center;
+}
+
+#desc{
+  text-align: center;
+  word-wrap: break-word;
+}
+
+h3{
+  text-align: center;
+}
+
+.miInfo{
+  opacity: 0;
 }
