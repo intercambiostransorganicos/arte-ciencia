@@ -9,12 +9,14 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
   overflow-x: hidden;
 }
+.app{
+  display: grid;
+  place-items: center;
+}
+
 
 .miImagen {
-  width: 35%;
-  margin: 0 auto;
-  height: 450px;
-  margin-top: 1%;
+  display: block;
 }
 
 .parent {
@@ -35,9 +37,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 1em;
-  /* flex: 1 1 150px;  Stretching: */
   flex: 0 1 90px;
-  /*  No stretching: */
   margin: 5px;
   user-select: none;
   transition: 300ms;
@@ -62,7 +62,7 @@ body {
   text-align: center;
 }
 
-#porcentajes{
+#porcentajesText{
   text-align: center;
 }
 
@@ -77,4 +77,28 @@ h3{
 
 .miInfo{
   opacity: 0;
+}
+
+.porcentajes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0;
+}
+
+.porcenText {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  background-color: rgba(147, 147, 147,0.5);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: .8em;
+  flex: 1 1 100px;
+  margin: 5px;
+  user-select: none;
+  transition: 300ms;
 }

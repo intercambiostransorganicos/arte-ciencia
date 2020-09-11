@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Arte y Ciencia</title>
@@ -10,31 +10,48 @@
 
 <body>
 
-  <h1 id="titulo">Arte y Ciencia</h1>
+  <div class="app">
+    <h1 id="titulo">Arte y Ciencia</h1>
 
-  <div class="parent">
-    <div class="child logic" onclick="hola('logic')">Logic</div>
-    <div class="child mathematics" onclick="hola('mathematics')">Mathematics</div>
-    <div class="child statistics" onclick="hola('statistics')">Statistics</div>
-    <div class="child physics" onclick="hola('physics')">Physics</div>
-    <div class="child chemistry" onclick="hola('chemistry')">Chemistry</div>
-    <div class="child geology" onclick="hola('geology')">Geology</div>
-    <div class="child astronomy" onclick="hola('astronomy')">Astronomy</div>
-    <div class="child biology" onclick="hola('biology')">Biology</div>
-    <div class="child sociology" onclick="hola('sociology')">Sociology</div>
-    <div class="child economics" onclick="hola('economics')">Economics</div>
-    <div class="child engineering" onclick="hola('engineering')">Engineering</div>
-    <div class="child medicine" onclick="hola('medicine')">Medicine</div>
-  </div>
+    <div class="parent">
+      <div class="child" onclick="hola('logic')">Logic</div>
+      <div class="child" onclick="hola('mathematics')">Mathematics</div>
+      <div class="child" onclick="hola('statistics')">Statistics</div>
+      <div class="child" onclick="hola('physics')">Physics</div>
+      <div class="child" onclick="hola('chemistry')">Chemistry</div>
+      <div class="child " onclick="hola('geology')">Geology</div>
+      <div class="child" onclick="hola('astronomy')">Astronomy</div>
+      <div class="child" onclick="hola('biology')">Biology</div>
+      <div class="child" onclick="hola('sociology')">Sociology</div>
+      <div class="child" onclick="hola('economics')">Economics</div>
+      <div class="child" onclick="hola('engineering')">Engineering</div>
+      <div class="child" onclick="hola('medicine')">Medicine</div>
+    </div>
 
     <h2 id="tituloObra"></h2>
-    <div class="miImagen"></div>
+
+    <img class="miImagen"></img>
 
     <div class="miInfo">
       <h3>Info</h3>
       <p id="desc"></p>
-      <p id="porcentajes"></p>
     </div>
+
+    <div class="porcentajes">
+      <div class="porcenText logic"></div>
+      <div class="porcenText mathematics"></div>
+      <div class="porcenText statistics"></div>
+      <div class="porcenText physics"></div>
+      <div class="porcenText chemistry"></div>
+      <div class="porcenText geology"></div>
+      <div class="porcenText astronomy"></div>
+      <div class="porcenText biology"></div>
+      <div class="porcenText sociology"></div>
+      <div class="porcenText economics"></div>
+      <div class="porcenText engineering"></div>
+      <div class="porcenText medicine"></div>
+    </div>
+  </div>
 
 
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
