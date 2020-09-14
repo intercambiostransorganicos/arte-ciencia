@@ -3,14 +3,14 @@ let porcentajes = []
 let misDiv
 let categoria = document.title.toLowerCase()
 
-for (let i = 0; i < data2.length; i++) {
-  if (data2[i].category == categoria) {
-    obraId.push(data2[i].object_id);
-    porcentajes.push(data2[i])
+for (let i = 0; i < data.length; i++) {
+  if (data[i].category == categoria) {
+    obraId.push(data[i].object_id);
+    porcentajes.push(data[i])
     misDiv = document.createElement('div')
     misDiv.setAttribute('class', 'child2')
-    misDiv.setAttribute('onclick', `hola(${data2[i].object_id})`)
-    misDiv.innerHTML += data2[i].object_id + ' '
+    misDiv.setAttribute('onclick', `hola(${data[i].object_id})`)
+    misDiv.innerHTML += data[i].title + ' '
     document.querySelector('.parent2').appendChild(misDiv)
   }
 }

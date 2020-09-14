@@ -75,7 +75,7 @@ a{
 }
 
 .child2{
-  width: 100px;
+  width: 200px;
   height: 100px;
   text-align: center;
   vertical-align: middle;
@@ -87,8 +87,9 @@ a{
   border-radius: 100px;
   text-align: center;
   text-decoration: none;
-  font-size: 1.3em;
-  flex: 1 0 100px;
+  word-wrap: break-word;
+  font-size: 1em;
+  flex: 0 1 300px;
   margin: 5px;
   user-select: none;
   transition: 300ms;
@@ -129,6 +130,7 @@ h2 {
   opacity: 0;
   width: 50%;
   word-wrap: break-word;
+  margin-bottom: -7%;
 }
 
 .porcentajes {
