@@ -67,16 +67,19 @@ body {
 }
 
 #desc{
+  font-size: 1.3em;
   text-align: center;
   word-wrap: break-word;
 }
 
-h3{
+h2{
   text-align: center;
 }
 
 .miInfo{
   opacity: 0;
+  width: 50%;
+  word-wrap: break-word;
 }
 
 .porcentajes{
