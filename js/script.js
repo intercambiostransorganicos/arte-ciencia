@@ -9,6 +9,7 @@ for (let i = 0; i < data.length; i++) {
     porcentajes.push(data[i])
     misDiv = document.createElement('div')
     misDiv.setAttribute('class', 'child2')
+    misDiv.setAttribute('loading', 'lazy')
     misDiv.setAttribute('onclick', `hola(${data[i].object_id})`)
     misDiv.innerHTML += data[i].title + ' '
     document.querySelector('.parent2').appendChild(misDiv)
