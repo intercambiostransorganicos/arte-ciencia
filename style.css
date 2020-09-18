@@ -43,6 +43,7 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
   margin-top: -5%;
 }
 
@@ -94,6 +95,10 @@ a{
   user-select: none;
   transition: 300ms;
 }
+
+/* .child2:nth-child(n+17){
+  opacity: 0;
+} */
 
 .child2:hover {
   background-color: rgba(255, 48, 79,0.6);
