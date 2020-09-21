@@ -19,7 +19,7 @@ h1 {
   color: #002651;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ a{
   margin-top: 2%;
 }
 
-.parent2{
+.parent2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -48,34 +48,35 @@ a{
 }
 
 .child {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   vertical-align: middle;
-  line-height: 180px;
+  line-height: 200px;
   border-width: thin;
   border-style: solid;
-  border-color: rgba(0, 38, 82,0.5);
+  border-color: rgba(0, 38, 82, 0.5);
   color: #002651;
   border-radius: 100px;
   text-align: center;
   text-decoration: none;
   font-size: 1.3em;
-  flex: 1 1 400px;
+  flex: 1 1 600px;
   margin: 5px;
   user-select: none;
   transition: 300ms;
 }
 
 .child:hover {
-  background-color: rgba(255, 48, 79,0.6);
+  background-color: rgba(255, 48, 79, 0.6);
 }
 
 .child:active {
   background-color: white;
 }
 
-.child2{
+.child2 {
+  overflow: hidden;
   width: 200px;
   height: 100px;
   text-align: center;
@@ -83,7 +84,7 @@ a{
   line-height: 100px;
   border-width: thin;
   border-style: solid;
-  border-color: rgba(0, 38, 82,0.5);
+  border-color: rgba(0, 38, 82, 0.5);
   color: #002651;
   border-radius: 100px;
   text-align: center;
@@ -96,12 +97,12 @@ a{
   transition: 300ms;
 }
 
-/* .child2:nth-child(n+17){
+.child2:nth-child(n+17) {
   opacity: 0;
-} */
+}
 
 .child2:hover {
-  background-color: rgba(255, 48, 79,0.6);
+  background-color: rgba(255, 48, 79, 0.6);
 }
 
 .child2:active {
@@ -176,4 +177,37 @@ h2 {
 
 .fa-long-arrow-alt-left {
   font-size: 2em;
+}
+
+.mas {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.mas:hover {
+  opacity: 1;
+}
+
+.fa-plus {
+  font-size: 2em;
+}
+
+.info{
+  position: absolute;
+  bottom: 2%;
+  right: 0;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.info:hover{
+  opacity: 1;
+}
+
+.fa-info{
+  color: #28c7fa;
+  font-size: 1.5em;
 }
