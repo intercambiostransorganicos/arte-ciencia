@@ -222,11 +222,10 @@ h2 {
 }
 
 .paginas {
-  position: absolute;
-  top: 94%;
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  margin-top: 1%;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
   opacity: 0.8;
 }
 
